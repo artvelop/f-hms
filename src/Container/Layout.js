@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import AdSense from 'react-adsense';
+//import AdSense from 'react-adsense';
 import Container from '@material-ui/core/Container';
 import { Card, CardHeader, Avatar, IconButton, Button, CardMedia, CardActions } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles';
@@ -97,13 +97,13 @@ class Layout extends Component {
             className="jb"
             image={valknut}
           />
-          <AdSense.Google
+          {/* <AdSense.Google
             client='ca-pub-2620265297834591'
             slot='7806394673'
             style={{ display: 'block' }}
             layout='in-article'
             format='fluid'
-          />
+          /> */}
           <CardActions>
             <Button
               className={classes.buttonStyle}
